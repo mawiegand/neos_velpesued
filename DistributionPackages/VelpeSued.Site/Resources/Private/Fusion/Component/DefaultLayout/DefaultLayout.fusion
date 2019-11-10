@@ -1,0 +1,9 @@
+prototype(VelpeSued.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <VelpeSued.Site:Component.Header />
+        {props.content}
+        <VelpeSued.Site:Component.Footer />
+    `
+}
